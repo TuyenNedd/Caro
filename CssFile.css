@@ -1,0 +1,127 @@
+@charset "utf-8";
+#bgr {
+    width: 100%;
+    background: url('./Images/bgr.png') center / cover no-repeat;
+    z-index: -900;
+}
+
+#divmain {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#divcontrol {
+    width: 320px;
+    height: 550px;
+    float: right;
+    background-color: #FFF;
+    margin-right: 126px;
+    margin-top: 52px;
+    opacity: 0.9;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px #878787, 0px 8px 20px #000000;
+}
+
+#imgPlayer {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url('./Images/Opng.png');
+    background-repeat: round;
+    background-color: #CCC;
+}
+
+#divcheckbox {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+	line-height: 20px;
+}
+
+.btn:active {
+    background-color: yellow;
+}
+
+#pgrTime {
+    margin-left: 10px;
+    margin-top: 14px;
+    width: 150px;
+    height: 14px;
+    background-color: #3F6;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    font-size: 9px;
+    border-right: #000 2px solid;
+    border-top: #000 1px solid;
+    background-color: #FFF;
+    background-repeat: round;
+    overflow: hidden;
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+#label1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#label2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    /* margin-left: 50px; */
+    /* margin-top: 30px; */
+    font-weight: 700;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: #99F;
+    /* cursor: pointer; */
+    /* border-radius: 15px; */
+    /* color: #FFF; */
+    margin: 20px 19%;
+}
+
+.button {
+    position: relative;
+    -webkit-border-radius: 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 0px #878787, 0px 8px 20px #000000;
+    box-shadow: 0px 8px 0px #878787, 0px 8px 20px #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 2px 10px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.button:active {
+    -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+    box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
+    top: 7px;
+}
+
+input[type="checkbox"] {
+    width: 19px;
+    height: 19px;
+	margin: 0 2px;
+}
